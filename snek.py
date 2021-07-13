@@ -6,12 +6,12 @@ class GameOverError(Exception):
 
 class Snek:
 
-    def __init__(self, xBound, yBound, initX=0, intiY=0, size=15, color=(255,255,255)):
+    def __init__(self, xBound, yBound, delta:int, initX=0, intiY=0, size=15, color=(255,255,255)):
         self.x = initX
         self.y = intiY
         self.listPos = [[initX, intiY]]
         self.dir = ""
-        self.delta = 15
+        self.delta = delta
         self.color = color
         self.xBound = xBound
         self.yBound = yBound

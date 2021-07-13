@@ -10,7 +10,9 @@ Pre-requisites: pygame - can be installed by running `pip install pygame`
 
 ### Usage
 
-`import snek`
+```python
+import snek
+```
 
 ## The snek.Snek object:
 

@@ -17,5 +17,5 @@ Pre-requisites: pygame - can be installed by running `pip install pygame`
 ```python
 from snek import Snek
 
-player = Snek()
+player = Snek(0, 0)
 ```

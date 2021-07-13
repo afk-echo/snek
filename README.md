@@ -30,7 +30,7 @@ player = Snek(600, 450, 15) #initialise the window boundaries for the Snek objec
 ```python
 player.move([150,150]) #moves the Snek object by the delta value initialised earlier.
 ```
-2. **player.draw(win:pygame.display)**
+2. **snek.Snek.draw(win:pygame.display)**
 ```python
 player.draw(win) #draws the Snek object on the specified screen.
 ```

@@ -1,18 +1,15 @@
-# snek
-An open source Python library for the Snake retro game.
+# 🐍 Snek
+An Open Source Python library for the retro Snake game.
 
-## Installation:
+# 📰 Installation:
 
 Pre-requisites: pygame - can be installed by running `pip install pygame`
 
 1. Grab the latest release of snek [here](https://github.com/afk-echo/snek/releases).
 2. Place it in your project's local directory.
 
-### Usage
+# 🗞️ Usage
 
-```python
-import snek
-```
 
 ## The snek.Snek object:
 
